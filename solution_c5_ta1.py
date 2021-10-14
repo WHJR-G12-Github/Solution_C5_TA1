@@ -60,14 +60,11 @@ while True:
   # For every 'enemy' in the 'enemies' list do the following
   # Increment x coordinate
   # Checking if x-coordinate is less than -250 or greater than 650 and change direction
- 
   # Display it on the screen and increment 'i'
   for enemy in enemies:
       enemy.x=enemy.x + xvel[i]
-      
       if enemy.x < -250 or enemy.x > 650 :
         xvel[i] = -1*xvel[i]
-      
       i+=1    
       screen.blit(enemy_image,enemy)  
      
