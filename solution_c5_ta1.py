@@ -82,7 +82,7 @@ while True:
   newimage=pygame.transform.rotate(player_image,angle) 
   screen.blit(newimage ,player)
   
-  pygame.draw.rect(screen,WHITE,enemy)
+  #pygame.draw.rect(screen,WHITE,enemy)
 
   pygame.display.update()
   pygame.time.Clock().tick(30)
