@@ -7,7 +7,10 @@ screen = pygame.display.set_mode((400,600))
 pygame.display.set_caption("Shooting Spaceship")
 background_image = pygame.image.load("bg2.jpg").convert()
 player_image = pygame.image.load("s4.png").convert_alpha()
+
+# Loading the "e3.png" and name it as 'enemy_image'
 enemy_image = pygame.image.load("e3.png").convert_alpha()
+
 player=pygame.Rect(200,200,30,30)
 
 # The following lines are commented as it is not required anymore
