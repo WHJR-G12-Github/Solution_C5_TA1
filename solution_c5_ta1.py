@@ -92,6 +92,7 @@ while True:
   newimage=pygame.transform.rotate(player_image,angle) 
   screen.blit(newimage ,player)
   
+  # The following line is commented as it is not required anymore
   #pygame.draw.rect(screen,WHITE,enemy)
 
   pygame.display.update()
